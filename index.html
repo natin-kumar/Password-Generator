@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="passGenerator.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Password Genrator</h1>
+        <div class="display">
+            <input type="text" name="" id="display" placeholder="Password" disabled>
+        </div>
+            
+        
+        <div class="common">
+
+            <label for="range">Enter range: </label>
+            <input type="number" name="" id="range" max="50" min="2">
+        </div>
+        <div class="common">
+
+            <label for="lower">Lower Case: </label>
+            <input type="checkbox" name="lower" id="lower">
+        </div>
+        <div class="common">
+
+            <label for="upper">Upper Case: </label>
+            <input type="checkbox" name="upper" id="upper">
+        </div>
+        <div class="common">
+            
+            <label for="number">Number: </label>
+            <input type="checkbox" name="number" id="number">
+        </div>
+        <div class="common">
+
+            <label for="symbol">Special Symbol: </label>
+            <input type="checkbox" name="symbol" id="symbol">
+        </div>
+        
+        <button id="btn">Genrate</button>
+    </div>
+    <script src="passGenerator.js"></script>
+</body>
+</html>
